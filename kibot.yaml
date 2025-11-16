@@ -287,11 +287,6 @@ outputs:
       front_image: renderer_for_present
       back_image: renderer_for_present
       gerbers: gerbers_for_present
-- name: renderer_for_present
-  comment: Renderer for the presentation
-  type: pcbdraw
-  dir: Render_for_presentation
-  run_by_default: false
 - name: gerbers_for_present
   comment: Gerbers for the presentation
   type: gerber
