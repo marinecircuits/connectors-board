@@ -699,12 +699,6 @@ outputs:
   options:
     template: simple_ASCII
     do_convert: true
-- name: report_full
-  comment: Full design report
-  type: report
-  options:
-    template: full_SVG
-    do_convert: true
 - name: basic_stencil_3d
   comment: 3D self-registering stencil
   type: stencil_3d
@@ -716,10 +710,6 @@ outputs:
   options:
     jigwidth: 100
     jigheight: 100
-- name: basic_svg_sch_print
-  comment: Schematic in SVG format
-  type: svg_sch_print
-  dir: Schematic
 - name: basic_vrml
   comment: PCB in VRML format
   type: vrml
