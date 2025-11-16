@@ -272,20 +272,6 @@ outputs:
     source:
     - schematic
     - pcb
-- name: basic_kikit_present
-  comment: Simple project presentation
-  type: kikit_present
-  dir: Presentation
-  options:
-    description: '# Presentation for canda
-
-      This is an automatically generated presentation page'
-    boards:
-      mode: local
-      comment: Resources included
-      front_image: renderer_for_present
-      back_image: renderer_for_present
-      gerbers: gerbers_for_present
 - name: gerbers_for_present
   comment: Gerbers for the presentation
   type: gerber
