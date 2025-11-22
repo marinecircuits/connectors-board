@@ -5,11 +5,11 @@
 	(uuid "f48a671c-1542-4fb2-ac88-d921c6d4416a")
 	(paper "A3")
 	(title_block
-		(date "2025-11-09")
-		(rev "0.5.0")
+		(date "2025-11-22")
+		(rev "0.1.0")
 		(company "Marine Circuits")
 		(comment 8 "connector_board")
-		(comment 9 "9718960")
+		(comment 9 "52e86bc")
 	)
 	(lib_symbols
 		(symbol "2s_connectors:1-350942-0"
